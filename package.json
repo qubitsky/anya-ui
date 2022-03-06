@@ -1,0 +1,10 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "demo": "lerna run --scope @qubi-ui/react-demo start"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
