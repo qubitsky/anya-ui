@@ -1,10 +1,13 @@
 import { Page } from "@/components";
 import { Link } from "react-router-dom";
+import { Center } from "@qubi-ui/components";
 
 const Home = () => {
   return (
     <Page>
-      <h1>Qubi UI</h1>
+      <Center>
+        <h1>Qubi UI</h1>
+      </Center>
       <ul>
         <li>
           <Link to="/stack">Stack</Link>
