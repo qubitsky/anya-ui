@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "lerna bootstrap --hoist",
     "storybook": "lerna run --scope @anya-ui/components storybook",
     "demo": "lerna run --scope @anya-ui/demo start"
   },
