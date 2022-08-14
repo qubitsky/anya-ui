@@ -1,6 +1,6 @@
 import { Page } from "@/components";
 import { Link } from "react-router-dom";
-import { Center } from "@qubi-ui/components";
+import { Center } from "@anya-ui/components";
 
 const Home = () => {
   return (

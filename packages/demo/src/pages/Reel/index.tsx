@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Reel } from "@qubi-ui/components";
+import { Reel } from "@anya-ui/components";
 import { Page, Box } from "@/components";
 
 const SquareBox = styled(Box)`

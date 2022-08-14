@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack } from "@qubi-ui/components";
+import { Stack } from "@anya-ui/components";
 import { Page, Box } from "@/components";
 
 const StackDemo = () => {

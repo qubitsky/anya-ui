@@ -2,7 +2,9 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "demo": "lerna run --scope @qubi-ui/react-demo start"
+    "bootstrap": "lerna bootstrap",
+    "storybook": "lerna run --scope @anya-ui/components storybook",
+    "demo": "lerna run --scope @anya-ui/demo start"
   },
   "devDependencies": {
     "lerna": "^4.0.0"

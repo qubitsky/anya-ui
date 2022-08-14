@@ -1,9 +1,9 @@
 {
-  "name": "@qubi-ui/react-demo",
+  "name": "@anya-ui/demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@qubi-ui/components": "^0.0.0",
+    "@anya-ui/components": "^0.0.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",

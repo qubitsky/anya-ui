@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Center } from "@qubi-ui/components";
+import { Center } from "@anya-ui/components";
 import { Page, Box } from "@/components";
 
 const FullScreenCenter = styled(Center)`
