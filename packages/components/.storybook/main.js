@@ -1,6 +1,12 @@
 const path = require("path");
 
 module.exports = {
+  core: {
+    builder: "webpack5",
+  },
+  features: {
+    postcss: false,
+  },
   stories: [
     "../stories/**/*.stories.mdx",
     "../stories/**/*.stories.@(js|jsx|ts|tsx)",
@@ -17,10 +23,15 @@ module.exports = {
     };
 
     const fileLoader = config.module.rules.find(
-      ({ loader }) => loader && loader.indexOf("file-loader") !== -1
+      ({ loader, type }) =>
+        (loader && loader.indexOf("file-loader") !== -1) ||
+        type === "asset/resource"
     );
-    fileLoader.test =
-      /\.(ico|jpg|jpeg|png|apng|gif|eot|otf|webp|ttf|woff|woff2|cur|ani|pdf)(\?.*)?$/;
+
+    if (fileLoader) {
+      fileLoader.test =
+        /\.(ico|jpg|jpeg|png|apng|gif|eot|otf|webp|ttf|woff|woff2|cur|ani|pdf)(\?.*)?$/;
+    }
 
     config.module.rules.push({
       test: /\.svg$/,
