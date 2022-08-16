@@ -28,6 +28,7 @@ export default {
 export const Template: ComponentStory<typeof Icon> = (args) => {
   return (
     <>
+      <p>全部图标</p>
       {[
         CreateFolderIcon,
         FolderFilledIcon,
