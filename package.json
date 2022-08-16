@@ -4,7 +4,10 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
     "storybook": "lerna run --scope @anya-ui/components storybook --stream",
-    "demo": "lerna run --scope @anya-ui/demo start --stream"
+    "demo": "lerna run --scope @anya-ui/demo start --stream",
+    "clean": "rm -rfv packages/**/dist",
+    "build": "lerna run build --stream",
+    "publish": "npm run clean && npm run build && lerna publish"
   },
   "workspaces": [
     "packages/*"

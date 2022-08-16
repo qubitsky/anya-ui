@@ -1,12 +1,25 @@
 {
   "name": "@anya-ui/icons",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/cjs/bundle.js",
+  "modules": "dist/esm/bundle.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup --config rollup.config.ts --configPlugin typescript"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@svgr/rollup": "^6.3.1",
+    "rollup": "^2.78.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
 }
