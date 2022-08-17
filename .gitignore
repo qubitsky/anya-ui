@@ -1,7 +1,7 @@
 .DS_Store
 .vscode/
 node_modules
-package-lock.json
+packages/**/package-lock.json
 yarn.lock
 dist/
 storybook-static
