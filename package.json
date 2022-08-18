@@ -8,7 +8,7 @@
     "demo": "lerna run --scope @anya-ui/demo start --stream",
     "clean": "rm -rfv packages/**/dist",
     "build": "lerna run build --stream",
-    "publish": "npm run clean && npm run build && lerna publish",
+    "publish": "npm run clean && npm run build && lerna publish --conventional-commits",
     "prepare": "husky install"
   },
   "workspaces": [
