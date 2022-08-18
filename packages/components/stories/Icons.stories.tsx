@@ -8,10 +8,15 @@ import {
   VueLogoIcon,
   StarAddIcon,
   ArrowUpIcon,
+  ArrowBackIcon,
+  ArrowDownFilledIcon,
   RefrechIcon,
   EditIcon,
   StarIcon,
   CloseIcon,
+  AttachFileIcon,
+  CloudOffIcon,
+  ComputerIcon,
 } from "@anya-ui/icons";
 import Icon from "@/Icon";
 
@@ -37,10 +42,15 @@ export const Template: ComponentStory<typeof Icon> = (args) => {
         VueLogoIcon,
         StarAddIcon,
         ArrowUpIcon,
+        ArrowBackIcon,
+        ArrowDownFilledIcon,
         RefrechIcon,
         EditIcon,
         StarIcon,
         CloseIcon,
+        AttachFileIcon,
+        CloudOffIcon,
+        ComputerIcon,
       ].map((Comp, index) => {
         return (
           <Icon key={index} {...args}>
