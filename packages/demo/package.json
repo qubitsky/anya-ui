@@ -1,9 +1,9 @@
 {
   "name": "@anya-ui/demo",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "private": true,
   "dependencies": {
-    "@anya-ui/components": "^0.0.1-alpha.0",
+    "@anya-ui/components": "^0.0.1-alpha.1",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
