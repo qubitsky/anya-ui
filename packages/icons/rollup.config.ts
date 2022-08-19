@@ -1,9 +1,10 @@
+import typescript from "@rollup/plugin-typescript";
 import svgr from "@svgr/rollup";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 
 export default {
   external: ["react"],
-  plugins: [nodeResolve(), svgr()],
+  plugins: [typescript(), nodeResolve(), svgr()],
   input: "index.ts",
   output: [
     {
