@@ -1,6 +1,7 @@
 import { ComponentStory } from "@storybook/react";
 
 import {
+  AddIcon,
   FolderFilledIcon,
   OpenEditorIcon,
   ReactLogoIcon,
@@ -59,6 +60,7 @@ export const Template: ComponentStory<typeof Icon> = (args) => {
     <>
       <p>全部图标</p>
       {[
+        AddIcon,
         FolderFilledIcon,
         OpenEditorIcon,
         ReactLogoIcon,

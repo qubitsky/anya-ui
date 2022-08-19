@@ -1,3 +1,4 @@
+export { default as AddIcon } from "./svg/add.svg";
 export { default as FolderFilledIcon } from "./svg/folder-filled.svg";
 export { default as OpenEditorIcon } from "./svg/open-editor.svg";
 export { default as ReactLogoIcon } from "./svg/react-logo.svg";
