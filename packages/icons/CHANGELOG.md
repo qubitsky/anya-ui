@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.1-alpha.3](https://github.com/qubitsky/anya-ui/compare/v0.0.1-alpha.2...v0.0.1-alpha.3) (2022-08-19)
+
+
+### Bug Fixes
+
+* add types for icons ([1c2f13c](https://github.com/qubitsky/anya-ui/commit/1c2f13c99e9d6637496649fe4605d90a0314f66c))
+
+
+
+
+
 ## [0.0.1-alpha.2](https://github.com/qubitsky/anya-ui/compare/v0.0.1-alpha.1...v0.0.1-alpha.2) (2022-08-19)
 
 
