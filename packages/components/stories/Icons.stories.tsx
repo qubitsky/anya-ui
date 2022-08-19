@@ -1,7 +1,6 @@
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { ComponentStory } from "@storybook/react";
 
 import {
-  CreateFolderIcon,
   FolderFilledIcon,
   OpenEditorIcon,
   ReactLogoIcon,
@@ -9,14 +8,37 @@ import {
   StarAddIcon,
   ArrowUpIcon,
   ArrowBackIcon,
-  ArrowDownFilledIcon,
-  RefrechIcon,
-  EditIcon,
   StarIcon,
   CloseIcon,
   AttachFileIcon,
   CloudOffIcon,
   ComputerIcon,
+  DarkModeIcon,
+  DashboardConfigIcon,
+  DashboardPlaginsIcon,
+  DashboardProjectIcon,
+  DashboardTasksIcon,
+  DropDownIcon,
+  EditPenIcon,
+  FlashFilledIcon,
+  FolderCreateFilledIcon,
+  FolderIcon,
+  HomeFilledIcon,
+  LightModeIcon,
+  LikeIcon,
+  LinkIcon,
+  MoreVertSettingsIcon,
+  NavImportIcon,
+  NavProjectsIcon,
+  NavSelectFolderIcon,
+  PlayIcon,
+  RefreshIcon,
+  RemoveIcon,
+  RnkLoaderIcon,
+  SearchIcon,
+  TranslateIcon,
+  UpdateIcon,
+  VisibleFilledIcon,
 } from "@anya-ui/icons";
 import Icon from "@/Icon";
 
@@ -30,12 +52,13 @@ export default {
   },
 };
 
+const ONE_LINE_COUNT = 10;
+
 export const Template: ComponentStory<typeof Icon> = (args) => {
   return (
     <>
       <p>全部图标</p>
       {[
-        CreateFolderIcon,
         FolderFilledIcon,
         OpenEditorIcon,
         ReactLogoIcon,
@@ -43,20 +66,47 @@ export const Template: ComponentStory<typeof Icon> = (args) => {
         StarAddIcon,
         ArrowUpIcon,
         ArrowBackIcon,
-        ArrowDownFilledIcon,
-        RefrechIcon,
-        EditIcon,
         StarIcon,
         CloseIcon,
         AttachFileIcon,
         CloudOffIcon,
         ComputerIcon,
+        DarkModeIcon,
+        DashboardConfigIcon,
+        DashboardPlaginsIcon,
+        DashboardProjectIcon,
+        DashboardTasksIcon,
+        DropDownIcon,
+        EditPenIcon,
+        FlashFilledIcon,
+        FolderCreateFilledIcon,
+        FolderIcon,
+        HomeFilledIcon,
+        LightModeIcon,
+        LikeIcon,
+        LinkIcon,
+        MoreVertSettingsIcon,
+        NavImportIcon,
+        NavProjectsIcon,
+        NavSelectFolderIcon,
+        PlayIcon,
+        RefreshIcon,
+        RemoveIcon,
+        RnkLoaderIcon,
+        SearchIcon,
+        TranslateIcon,
+        UpdateIcon,
+        VisibleFilledIcon,
       ].map((Comp, index) => {
-        return (
+        const item = [
           <Icon key={index} {...args}>
             <Comp />
-          </Icon>
-        );
+          </Icon>,
+        ];
+        if (index % ONE_LINE_COUNT === ONE_LINE_COUNT - 1) {
+          item.push(<br key={"br" + index} />);
+        }
+        return item;
       })}
     </>
   );
