@@ -1,6 +1,6 @@
 {
   "name": "@anya-ui/components",
-  "version": "0.0.1-alpha.3",
+  "version": "0.0.1-alpha.4",
   "description": "> TODO: description",
   "author": "qubitsky <owlikesj@gmail.com>",
   "homepage": "",
@@ -57,6 +57,6 @@
     "styled-components": "^5.3.5"
   },
   "dependencies": {
-    "@anya-ui/icons": "^0.0.1-alpha.3"
+    "@anya-ui/icons": "^0.0.1-alpha.4"
   }
 }

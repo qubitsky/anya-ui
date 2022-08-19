@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.1-alpha.4](https://github.com/qubitsky/anya-ui/compare/v0.0.1-alpha.3...v0.0.1-alpha.4) (2022-08-19)
+
+
+### Bug Fixes
+
+* the add icon ([234353e](https://github.com/qubitsky/anya-ui/commit/234353e8fad365fea461fbe934366916aecde8e4))
+
+
+
+
+
 ## [0.0.1-alpha.3](https://github.com/qubitsky/anya-ui/compare/v0.0.1-alpha.2...v0.0.1-alpha.3) (2022-08-19)
 
 **Note:** Version bump only for package @anya-ui/components
