@@ -118,4 +118,5 @@ Template.storyName = "全部图标";
 
 Template.args = {
   size: 40,
+  color: '#333'
 };

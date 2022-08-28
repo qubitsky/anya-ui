@@ -1,6 +1,3 @@
-import styled from "styled-components";
-
-export default styled.div`
-  display: grid;
-  place-items: center;
-`;
+export { default } from "./Center";
+export * from "./Center";
+export * from "./types";

@@ -4,14 +4,22 @@ import React from "react";
 interface IIconProps {
   className?: string;
   size?: number | string;
+  color?: string;
   style?: CSSProperties;
 }
 
-const Icon: React.FC<IIconProps> = ({ className, size, style, ...props }) => {
+const Icon: React.FC<IIconProps> = ({
+  className,
+  size,
+  color,
+  style,
+  ...props
+}) => {
   if (typeof size === "number") {
     style = {
       width: size,
       height: size,
+      color,
       ...style,
     };
   }
@@ -25,5 +33,6 @@ export default styled(Icon)`
   svg {
     width: 100%;
     height: 100%;
+    fill: currentColor;
   }
 `;
