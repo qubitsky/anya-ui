@@ -10,5 +10,14 @@ export enum ECenterUse {
   textAlign = "text-align",
   inlineBlock = "inline-block",
   margin = "margin",
-  position = "position"
+  position = "position",
+}
+
+export interface ICenter {
+  className?: string;
+  /** 方向 */
+  direction?: ECenterDirection;
+  /** 使用什么方式实现 */
+  use?: ECenterUse;
+  height?: string;
 }

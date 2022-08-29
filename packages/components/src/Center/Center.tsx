@@ -1,4 +1,3 @@
-import { ReactChildren } from "react";
 import styled from "styled-components";
 import {
   flexCenterA,
@@ -12,15 +11,7 @@ import {
   positionCenterV,
   textAlignCenter,
 } from "./style";
-import { ECenterDirection, ECenterUse } from "./types";
-
-export interface ICenter {
-  className?: string;
-  /** 方向 */
-  direction?: ECenterDirection;
-  /** 使用什么方式实现 */
-  use?: ECenterUse;
-}
+import { ICenter, ECenterDirection, ECenterUse } from "./types";
 
 const flexCenterMap = {
   [ECenterDirection.horizontal]: flexCenterH,
